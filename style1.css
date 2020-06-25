@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;600;800&display=swap');
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Jost', sans-serif;
+  background-image: url("img/Fundo2.jpg");
+}
+h1 {
+  background-color: #483D8B;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 4px solid #483D8B;
+  border-bottom: 4px solid #483D8B;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  padding: 38px 24px;
+  text-shadow: 4px 4px 4px #000;
+}
+main.container {
+  width: 70vw;
+  margin: auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(9, 5fr);
+  grid-column-gap: 20px;
+  background-color: ;
+}
+nav > a {
+
+  color: #424242;
+  font-size: 12px;
+  padding: 200px 200px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+
+}
+nav :hover {
+  background-color: white;
+  border-bottom: 4px solid gray;
+
+
+}
+a{
+    text-align: center;
+}
+img {
+  box-shadow: 4px 4px 4px #424242;
+  margin: 24px auto;
+  max-width: 100%;
+}
+h2 {
+  color: brack;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+p {
+  border-bottom: 1px solid black;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align: justify;
+  padding: 10px;
+}
+
+h3{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+
+
+
+
+a {
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px ;
+  shadow:1px 1px 1px;
+
+}
+a:hover {
+  opacity: 0.8;
+  color:blue;
+}
+
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: 24px auto;
+}
